@@ -16,7 +16,7 @@ MCP Server dinamis untuk API [siputzx.my.id](https://api.siputzx.my.id). Server 
 ### 1. Gemini CLI (Terminal)
 Langsung install dan gunakan tanpa setup manual:
 ```bash
-gemini extensions install https://github.com/siputzx/mcp
+gemini extensions install https://github.com/siputzx/mcp-apisiputzx
 ```
 
 ### 2. Claude Desktop
@@ -57,8 +57,8 @@ Server ini menggunakan runtime discovery:
 Jika ingin berkontribusi atau modifikasi:
 ```bash
 # Clone
-git clone https://github.com/siputzx/mcp
-cd mcp
+git clone https://github.com/siputzx/mcp-apisiputzx
+cd mcp-apisiputzx
 
 # Install & Build
 npm install
