@@ -1,0 +1,4 @@
+node_modules/
+.env
+.DS_Store
+# dist/ TIDAK di-ignore karena kita ingin bundling bisa langsung dipakai

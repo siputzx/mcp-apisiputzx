@@ -1,0 +1,11 @@
+{
+  "name": "siputzx-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server dynamic dari OpenAPI siputzx.my.id - Anime, Berita, & Utils",
+  "mcpServers": {
+    "siputzx": {
+      "command": "node",
+      "args": ["dist/index.js"]
+    }
+  }
+}

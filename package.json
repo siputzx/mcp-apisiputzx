@@ -1,0 +1,31 @@
+{
+  "name": "siputzx-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server auto-generated at runtime dari OpenAPI siputzx.my.id",
+  "main": "dist/index.js",
+  "bin": {
+    "siputzx-mcp-server": "dist/index.js"
+  },
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "ncc build src/index.js -o dist -m"
+  },
+  "keywords": [
+    "mcp",
+    "siputzx",
+    "anime",
+    "indonesia",
+    "api"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^4.3.6"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.4"
+  }
+}
